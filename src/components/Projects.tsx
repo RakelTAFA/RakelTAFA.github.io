@@ -13,7 +13,7 @@ const projects = [
     description: "Application mobile recensant les stations essences ainsi que les informations les concernants (prix du jour, disponibilité...).",
     image: "/img/Station_essence.png",
     tags: ["Android Studio", "Java", "API Open Source"],
-    github: "https:/github.com/RakelTAFA/Android_Java_Station_Essence",
+    github: "https://github.com/RakelTAFA/Android_Java_Station_Essence",
   },
   {
     title: "Escalade en RA",
