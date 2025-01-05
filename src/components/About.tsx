@@ -5,7 +5,7 @@ export function About() {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/public/files/CV_Rakel_TAFA.pdf';
+    link.href = '/files/CV_Rakel_TAFA.pdf';
     link.download = 'CV_Rakel_TAFA.pdf';
     document.body.appendChild(link);
     link.click();
