@@ -4,21 +4,21 @@ const projects = [
   {
     title: "FrogDomo",
     description: "Application mobile de domotique, communiquant avec des appareils dans le même réseau local via une API conservant les paramètres.",
-    image: "/src/img/FrogDomo.png",
+    image: "/public/img/FrogDomo.png",
     tags: ["IoT", "Arduino", "C++", "MongoDB", "Express.js", "Kotlin"],
     github: "https://github.com/RakelTAFA/FrogDomo",
   },
   {
     title: "Localisation Station Essence",
     description: "Application mobile recensant les stations essences ainsi que les informations les concernants (prix du jour, disponibilité...).",
-    image: "/src/img/Station_essence.png",
+    image: "/public/img/Station_essence.png",
     tags: ["Android Studio", "Java", "API Open Source"],
     github: "https:/github.com/RakelTAFA/Android_Java_Station_Essence",
   },
   {
     title: "Escalade en RA",
     description: "Jeu d'escalade en réalité augmentée. L'ordinateur affiche les prises à aller chercher, un vidéoprojecteur projette les prises, une caméra détecte et transmet les positions.",
-    image: "/src/img/Escalade_en_RA.png",
+    image: "/public/img/Escalade_en_RA.png",
     tags: ["C++", "Mediapipe", "OpenCV", "Python"],
     github: "https://github.com/simplyyCarlos/ClimbingProject",
   }

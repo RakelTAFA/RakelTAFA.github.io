@@ -5,7 +5,7 @@ export function About() {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/src/docs/CV_Rakel_TAFA.pdf';
+    link.href = '/public/files/CV_Rakel_TAFA.pdf';
     link.download = 'CV_Rakel_TAFA.pdf';
     document.body.appendChild(link);
     link.click();
@@ -25,7 +25,7 @@ export function About() {
               <div>
                 <h3 className="font-semibold text-xl mb-2">À propos</h3>
                 <p className="text-gray-600">Je suis Rakel TAFA, un jeune de 21 ans passionné de technologies numériques qui aime les nouveautés et les découvertes.
-                  <br /><br />Ma rigueur, mon esprit d'équipe et ma curiosité sont mes atouts majeurs. C'est d'ailleurs grâce à cette dernière que j'ai découvert le monde de l'informatique, d'abord en autodidacte.
+                  <br /><br />Ma rigueur, mon esprit d'équipe et ma curiosité sont mes atouts majeurs. C'est d'ailleurs grâce à cette dernière que j'ai découvert le monde de l'informatique, d'abord en autodidacte, avant de prendre la décision d'en faire mon métier.
                   <br /><br />Je pratique régulièrement du sport, seul ou en groupe, et j'aime me cultiver sur des sujets contemporains.</p>
               </div>
             </div>
