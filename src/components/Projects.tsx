@@ -2,18 +2,18 @@ import { Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "Scanneur de trafic réseau",
+    description: "[EN COURS] Application bureau (console en V1, graphique à l'avenir) dont l'objectif est de scanner les connexions des appareils du réseau local et de notifier lorsqu'une connexion à un site spécifié par l'utilisateur a lieu (à l'instar d'un bloqueur de site web).",
+    image: "/img/Scanneur_trafic_reseau.png",
+    tags: ["Visual Studio 2022", "C++", "Npcap", "Windows Socket 2"],
+    github: "https://github.com/RakelTAFA/Network_traffic_catcher",
+  },
+  {
     title: "FrogDomo",
     description: "Application mobile de domotique, communiquant avec des appareils dans le même réseau local via une API conservant les paramètres.",
     image: "/img/FrogDomo.png",
-    tags: ["IoT", "Arduino", "C++", "MongoDB", "Express.js", "Kotlin"],
+    tags: ["IoT", "Arduino", "MongoDB", "Express.js", "Kotlin"],
     github: "https://github.com/RakelTAFA/FrogDomo",
-  },
-  {
-    title: "Localisation Station Essence",
-    description: "Application mobile recensant les stations essences ainsi que les informations les concernants (prix du jour, disponibilité...).",
-    image: "/img/Station_essence.png",
-    tags: ["Android Studio", "Java", "API Open Source"],
-    github: "https://github.com/RakelTAFA/Android_Java_Station_Essence",
   },
   {
     title: "Escalade en RA",
